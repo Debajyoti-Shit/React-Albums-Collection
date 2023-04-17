@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  color: rgb(21, 37, 255);
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+body {
+  background-color: #fff;
+}
+.container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.photo-gallery {
+  width: 95%;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.pic {
+  position: relative;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 3px rgb(71, 92, 112);
+  color: transparent;
+  background-image: url(https://i.pinimg.com/736x/f3/1e/37/f31e37f89b40232301202e05369240a6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zoom-effect {
+  overflow: hidden;
+}
+
+.zoom-effect {
+  transition: transform 0.5s;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.brand-first-half {
+  background-color: red;
+  color: #fff;
+}
+.brand-last-half {
+  background-color: black;
+  color: #fff;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.pic::before {
+  content: "Album";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: -100px;
+  opacity: 0;
+  z-index: 1;
+  translate: 0.3s;
+  transition-delay: 0.2s;
+}
+
+.id {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.icon-edit {
+  color: rgb(19, 112, 219);
+}
+
+.icon-del {
+  color: rgb(223, 0, 137);
+}
+
+.icon-edit:hover {
+  color: rgb(20, 211, 3);
+}
+.icon-del:hover {
+  color: rgb(255, 0, 0);
+}
+
+.card-header {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 10px;
+
+  margin-top: 20px;
+}
+
+.card-head2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgb(187, 255, 0);
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.line {
+  border-style: 1px solid black;
+}
+
+.list {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  text-shadow: 2px solid black;
+}

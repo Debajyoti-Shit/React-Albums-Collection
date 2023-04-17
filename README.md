@@ -1,7 +1,42 @@
-## How to Start the Project
-Clone the repository to your local machine
-Install dependencies with `npm install`
-Start the development server with `npm start`
+
+# How to Start the Project
+1. Clone the repository to your local machine
+2. Install dependencies with `npm install`
+3. Start the development server with `npm start`
+
+## folder structure:
+
+
+```     
+React-Albums-Collection
+        |
+        |------public
+        |         |--- favicon.ico
+        |         |--- index.html
+        |             
+        |------ src
+        |         |---components
+        |         |     |--- AddAlbum.js
+        |         |     |--- AlbumsList.js
+        |         |     |--- App.js
+        |         |     |--- List.js
+        |         |     |--- Navbar.js
+        |         |     |--- UpdateAlbum.js
+        |         |    
+        |         |--- index.css
+        |         |--- index.js
+        |
+        |------ .gitignore
+        |------ package.json
+        |------ package-lock.json
+        └------ README.md
+```
+
+## Authors
+
+- [Debajyoti Shit](https://github.com/Debajyoti-Shit/)
+
+
 
 # Getting Started with Create React App
 
